@@ -1,0 +1,29 @@
+@keyframes move-around {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(0, 100px);
+  }
+  75% {
+    transform: translate(100px, 100px);
+  }
+  100% {
+    transform: translate(100px, 0);
+  }
+}
+
+#mountain {
+  height: 500px;
+  width: 500px;
+}
+
+#clouds {
+  animation: 3s linear 0s infinite alternate move-around;
+}
+
+#mountain-active {
+
+}
+
+
